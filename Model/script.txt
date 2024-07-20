@@ -1,0 +1,11 @@
+use Assignment2
+
+select * from employees
+
+select * from EmployeeDetail
+
+select * from Team
+
+select * from Projects
+
+select * from employeeprojects
