@@ -2,9 +2,9 @@ use Assignment2
 
 select * from employees
 
-select * from EmployeeDetail
+select * from EmployeeDetails
 
-select * from Team
+select * from Teams
 
 select * from Projects
 

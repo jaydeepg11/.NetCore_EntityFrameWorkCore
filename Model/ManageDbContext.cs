@@ -12,11 +12,9 @@ public class ManageDbContext:DbContext
         modelBuilder.Entity<EmployeeProject>().HasOne(op=>op.employee).WithMany(op=>op.employeeProjects).HasForeignKey(key=>key.EmployeeID);
         modelBuilder.Entity<EmployeeProject>().HasOne(op=>op.project).WithMany(op=>op.employeeProjects).HasForeignKey(key=>key.ProjectID);
 
-        modelBuilder.Entity<EmployeeDetail>().HasOne(op=>op.employee).WithOne(op=>op.employeeDetail).HasForeignKey<EmployeeDetail>(e => e.EmployeeID)
-        .IsRequired();
+        modelBuilder.Entity<EmployeeDetail>().HasOne(op=>op.employee).WithOne(op=>op.employeeDetail).HasForeignKey<EmployeeDetail>(e => e.EmployeeID);
 
-        modelBuilder.Entity<Employee>().HasOne(op=>op.team).WithMany(op=>op.employees).HasForeignKey(e => e.EmployeeID)
-        .IsRequired();
+        modelBuilder.Entity<Employee>().HasOne(op=>op.team).WithMany(op=>op.employees).HasForeignKey(e => e.EmployeeID);
 
         modelBuilder.Entity<Employee>().HasData(new Employee{EmployeeID=1,Name="Abhishek",TeamID=1},new Employee{EmployeeID=2,Name="Basil",TeamID=2});
         modelBuilder.Entity<EmployeeDetail>().HasData(new EmployeeDetail{EmployeeDetailID=1,EmployeeID=1,Address="Maharashtra"},new EmployeeDetail{EmployeeDetailID=2,EmployeeID=2,Address="Goa"});
@@ -27,4 +25,7 @@ public class ManageDbContext:DbContext
     public DbSet<Employee> Employees{get;set;}
     public DbSet<Project> Projects{get;set;}
     public DbSet<EmployeeProject> EmployeeProjects{get;set;}
+
+    public DbSet<EmployeeDetail> EmployeeDetails{get;set;}
+    public DbSet<Team> Teams{get;set;}
 }  

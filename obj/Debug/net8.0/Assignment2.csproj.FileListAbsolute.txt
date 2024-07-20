@@ -178,13 +178,6 @@ C:\API_Test\API_Assignment1\Assignment2\bin\Debug\net8.0\runtimes\win\lib\net6.0
 C:\API_Test\API_Assignment1\Assignment2\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\API_Test\API_Assignment1\Assignment2\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\API_Test\API_Assignment1\Assignment2\obj\Debug\net8.0\Assignment2.csproj.CopyComplete
-C:\API_Test\API_Assignment2\Assignment2\obj\Debug\net8.0\Assignment2.csproj.AssemblyReference.cache
-C:\API_Test\API_Assignment2\Assignment2\obj\Debug\net8.0\Assignment2.GeneratedMSBuildEditorConfig.editorconfig
-C:\API_Test\API_Assignment2\Assignment2\obj\Debug\net8.0\Assignment2.AssemblyInfoInputs.cache
-C:\API_Test\API_Assignment2\Assignment2\obj\Debug\net8.0\Assignment2.AssemblyInfo.cs
-C:\API_Test\API_Assignment2\Assignment2\obj\Debug\net8.0\Assignment2.csproj.CoreCompileInputs.cache
-C:\API_Test\API_Assignment2\Assignment2\obj\Debug\net8.0\Assignment2.MvcApplicationPartsAssemblyInfo.cache
-C:\API_Test\API_Assignment2\Assignment2\obj\Debug\net8.0\Assignment2.sourcelink.json
 C:\API_Test\API_Assignment2\Assignment2\bin\Debug\net8.0\appsettings.Development.json
 C:\API_Test\API_Assignment2\Assignment2\bin\Debug\net8.0\appsettings.json
 C:\API_Test\API_Assignment2\Assignment2\bin\Debug\net8.0\Assignment2.exe
@@ -345,6 +338,13 @@ C:\API_Test\API_Assignment2\Assignment2\bin\Debug\net8.0\runtimes\win\lib\net6.0
 C:\API_Test\API_Assignment2\Assignment2\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 C:\API_Test\API_Assignment2\Assignment2\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\API_Test\API_Assignment2\Assignment2\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\API_Test\API_Assignment2\Assignment2\obj\Debug\net8.0\Assignment2.csproj.AssemblyReference.cache
+C:\API_Test\API_Assignment2\Assignment2\obj\Debug\net8.0\Assignment2.GeneratedMSBuildEditorConfig.editorconfig
+C:\API_Test\API_Assignment2\Assignment2\obj\Debug\net8.0\Assignment2.AssemblyInfoInputs.cache
+C:\API_Test\API_Assignment2\Assignment2\obj\Debug\net8.0\Assignment2.AssemblyInfo.cs
+C:\API_Test\API_Assignment2\Assignment2\obj\Debug\net8.0\Assignment2.csproj.CoreCompileInputs.cache
+C:\API_Test\API_Assignment2\Assignment2\obj\Debug\net8.0\Assignment2.MvcApplicationPartsAssemblyInfo.cache
+C:\API_Test\API_Assignment2\Assignment2\obj\Debug\net8.0\Assignment2.sourcelink.json
 C:\API_Test\API_Assignment2\Assignment2\obj\Debug\net8.0\staticwebassets.build.json
 C:\API_Test\API_Assignment2\Assignment2\obj\Debug\net8.0\staticwebassets.development.json
 C:\API_Test\API_Assignment2\Assignment2\obj\Debug\net8.0\staticwebassets\msbuild.Assignment2.Microsoft.AspNetCore.StaticWebAssets.props
