@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
 [Route("api/Employee")]
@@ -11,6 +12,7 @@ public class EmployeeController : ControllerBase
         _context=context;
         _emp=emp;
     }
+    [EnableCors("CorsPolicy")]
     [Route("getEmployee/{id?}")]
     [HttpGet]
     public IActionResult getEmployee(int? id)
@@ -27,6 +29,7 @@ public class EmployeeController : ControllerBase
             return NotFound();
     }
 
+[EnableCors("CorsPolicy")]
     [HttpPut]
     [Route("updateEmployee")]
      public IActionResult updateEmployee(Employee emp)
